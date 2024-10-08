@@ -34,4 +34,4 @@ This repository contains the source code, simulation data, and documentation for
   - Alternatively, run **`RAISING_Demo.py`** to see how the framework works with the provided simulated data (`sim1.csv`).
 
 ### 2. Read the Documentation
-- For further details on RAISING frameworl, refer to **`README_hp_optimization.html`**.
+- For further details on the RAISING framework, refer to **`README_hp_optimization.html`**.
