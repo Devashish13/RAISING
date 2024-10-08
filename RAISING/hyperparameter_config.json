@@ -1,0 +1,12 @@
+{
+	"layers": {"min_value": 1,"max_value": 3},
+	"units": {"min_value": 10,"max_value": 100},
+	"learning_rate": {"min_value": 1e-4,"max_value": 1e-2,"sampling": "log"},
+	"activation": {"values": ["relu"]},
+	"l1_regularizer": {"min_value": 1e-4,"max_value": 1e-2,"sampling": "log"},
+	"l2_regularizer": {"min_value": 0,"max_value": 0,"sampling": "log"},
+	"dropout": {"min_value": 0.05,"max_value": 0.5,"sampling": "linear"},
+	"optimizer": {"values": ["adam"]},
+	"weight_initializer":{"values":["he_normal"]}
+}
+
