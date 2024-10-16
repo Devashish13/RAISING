@@ -1,7 +1,7 @@
 
 # RAISING Repository
 
-This repository contains the source code, simulation data, and documentation for the **RAISING**, a two-stage neural network(NN) framework that first performs hyperparameter tuning to devise the best NN architecture and then performs training on the entire data to estimate the feature importance.
+This repository contains the source code, simulation data, and documentation for the **RAISING**, a two-stage neural network(NN) implementation framework that first performs hyperparameter tuning to devise the best NN architecture and then performs training on the entire data to estimate the feature importance.
 
 ## Repository Structure
 
