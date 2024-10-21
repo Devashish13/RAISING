@@ -23,7 +23,7 @@ def reset_weights(model):
 	from keras import backend as K
 	from keras.layers import Dense
 	import numpy as np
-	session = K.get_session()
+	#session = K.get_session()
 	for layer in model.layers:
 		if isinstance(layer, Dense):
 			old = layer.get_weights()
