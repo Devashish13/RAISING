@@ -51,7 +51,7 @@ def random_combnation(param_name, param_dict):
 		return np.random.uniform(param_dict["min_value"], param_dict["max_value"])
 
 def hpspace_gen(NCombination,hps_dict):
-	from static_function import random_combnation
+	from RAISING.static_function import random_combnation
 	import pandas as pd
 	param_combinations = []
 	for _ in range(NCombination):
