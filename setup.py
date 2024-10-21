@@ -18,6 +18,7 @@ setup(
         "tensorflow_addons>=0.18.0",
         "imbalanced-learn>=0.11.0",
         "shap>=0.41.0",
-        "statsmodels>=0.14.0"
+        "statsmodels>=0.14.0",
+        "matplotlib>=3.6.2"
     ]
 )
