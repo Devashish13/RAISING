@@ -27,8 +27,8 @@ def hp_optimization(input_data, output_data,output_class,objective_fun,utag="",S
 	from kerastuner.engine.hyperparameters import HyperParameters
 	import inspect
 	from imblearn.over_sampling import SMOTENC
-	from static_function import valid_args,get_hyperparams,hpspace_gen,hidden_nodes
-	from RSLM_implement import RSLM
+	from RAISING.static_function import valid_args,get_hyperparams,hpspace_gen,hidden_nodes
+	from RAISING.RSLM_implement import RSLM
 	import json
 
 	if output_class not in ["continuous","binary","multiclass"]:
