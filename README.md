@@ -1,11 +1,18 @@
 
-# RAISING Repository
+# RAISING
 
 This repository contains the source code, simulation data, and documentation for the **RAISING**, a two-stage neural network(NN) implementation framework that first performs hyperparameter tuning to devise the best NN architecture and then performs training on the entire data to estimate the feature importance.
+
+## RAISING installation
+
+Create a conda environment to install the RAISING
+
 ```
 conda create -n RAISING_env python=3.9
+conda activate RAISING_env
 ```
-Install the package using github repository
+
+Install the package through a github repository
 
 ```
 pip install git+https://github.com/Devashish13/RAISING.git
