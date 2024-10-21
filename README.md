@@ -5,6 +5,11 @@ This repository contains the source code, simulation data, and documentation for
 ```
 conda create -n RAISING_env python=3.9
 ```
+Install the package using github repository
+
+```
+pip install git+https://github.com/Devashish13/RAISING.git
+```
 ## Repository Structure
 
 ```plaintext
