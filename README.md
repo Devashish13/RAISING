@@ -10,6 +10,12 @@ Install the package using github repository
 ```
 pip install git+https://github.com/Devashish13/RAISING.git
 ```
+## RAISING implementation 
+Please visit the following link for detailed description of RAISING documentation and tutorials
+
+https://devashish13.github.io/Pages_test/
+
+
 ## Repository Structure
 
 ```plaintext
