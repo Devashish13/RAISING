@@ -334,9 +334,9 @@ def feature_importance(input_data,output_data,feature_set,model_file="ANN_archit
 	import numpy
 	import tensorflow_addons
 	import shap
-	from FeatureImp import DeepFeatImp
+	from RAISING.FeatureImp import DeepFeatImp
 	import inspect
-	from static_function import subset_data, valid_args,reset_weights 
+	from RAISING.static_function import subset_data, valid_args,reset_weights 
 
 	if isinstance(output_data,numpy.ndarray):
 		output_data = pandas.DataFrame(output_data)
