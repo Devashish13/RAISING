@@ -10,7 +10,7 @@ setup(
     install_requires=[
         "pandas>=1.5.2",
         "numpy>=1.23.5",
-        "tensorflow>=2.11.0",
+        "tensorflow<2.16.0",
         "keras>=2.11.0",
         "scikit-learn>=1.0.2",
         "keras-tuner>=1.1.3",
