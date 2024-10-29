@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RAISING</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      // Function to toggle visibility of the Tutorials section
+      function toggleTutorials() {
+        var tutorialsSection = document.getElementById('tutorials');
+        if (tutorialsSection.style.display === 'none' || tutorialsSection.style.display === '') {
+          tutorialsSection.style.display = 'block'; // Show the section
+        } else {
+          tutorialsSection.style.display = 'none'; // Hide the section
+        }
+      }
+    </script>
+</head>
+<body class="bg-gray-100 text-gray-800">
+
+<!-- Hero Section -->
+<div class="bg-blue-500 text-white py-16">
+  <div class="container mx-auto text-center">
+    <h1 class="text-5xl font-bold">RAISING</h1>
+    <p class="text-xl mt-4">An automated supervised deep learning framework</p>
+  </div>
+</div>
+
+<!-- Graphical Abstract Section -->
+<div class="container mx-auto my-12 p-6 bg-white shadow-md rounded-lg">
+  <h2 class="text-3xl font-semibold mb-4 text-center">RAISING Workflow</h2>
+  <p class="text-lg text-center mb-6">A visual representation of the RAISING workflow and its application in detecting genomic signatures of polygenic selection.</p>
+  <div class="flex justify-center">
+    <!-- Graphical Abstract Image -->
+    <img src="graphical_abstract.png" alt="RAISING Workflow" class="max-w-full h-auto rounded-lg shadow-lg">
+  </div>
+</div>
+
+<!-- About Section -->
+<div class="container mx-auto my-12 p-6 bg-white shadow-md rounded-lg">
+  <h2 class="text-3xl font-semibold mb-4">About RAISING</h2>
+  <p class="text-lg">RAISING: a two-stage supervised deep learning framework for hyperparameter tuning and feature selection. It contains two primary functions: <em>hp_optimization</em> and <em>feature_importance</em>. In the first stage, users perform hyperparameter tuning through the <em>hp_optimization</em> function and pass the optimal neural network (NN) architecture to <em>feature_importance</em> to train the architecture on the entire dataset and estimate the feature importance. Explore the documentation and tutorials for deeper insights.</p>
+</div>
+
+<!-- Buttons Section -->
+<div class="container mx-auto my-12 text-center">
+  <h2 class="text-3xl font-semibold mb-8">Get Started with RAISING</h2>
+  <!-- Buttons for Installation, Documentation, Tutorials -->
+  <div class="space-x-4">
+    <a href="Installation.html" class="bg-green-500 text-white py-2 px-6 rounded-full hover:bg-green-600">Installation</a>
+    <a href="README_hp_optimization.html" class="bg-blue-500 text-white py-2 px-6 rounded-full hover:bg-blue-600">Documentation</a>
+    <a href="javascript:void(0);" onclick="toggleTutorials()" class="bg-yellow-500 text-white py-2 px-6 rounded-full hover:bg-yellow-600">Tutorials</a>
+  </div>
+</div>
+
+<!-- Tutorials Section (Initially Hidden) -->
+<div id="tutorials" class="container mx-auto my-12 p-6 bg-white shadow-md rounded-lg" style="display: none;">
+  <h2 class="text-3xl font-semibold mb-4">Tutorials</h2>
+  <ul class="list-disc pl-5 text-lg">
+    <li>
+      <a href="RAISING_Demo_functionality.html" class="text-blue-600 hover:underline">
+        A tutorial demonstrating the RAISING functionality
+      </a>
+    </li>
+    <li>
+      <a href="simulation_tutorial.html" class="text-blue-600 hover:underline">
+        A tutorial for detecting signatures of polygenic adaptation on simulated data
+      </a>
+    </li>
+  </ul>
+</div>
+
+<!-- Footer -->
+<footer class="bg-gray-800 text-white p-4 text-center">
+  <p>&copy; 2024 RAISING Project - All Rights Reserved</p>
+</footer>
+
+</body>
+</html>
