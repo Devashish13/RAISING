@@ -21,3 +21,6 @@ pip install git+https://github.com/Devashish13/RAISING.git
 Please visit the following link for detailed description of RAISING documentation and tutorials
 
 https://devashish13.github.io/RAISING/
+
+## Simulated data generated for detecting polygenic adaptation
+Simulated data generated in this study for detecting polygenic selection can be accessed from zenodo repository(https://zenodo.org/records/12752105)
