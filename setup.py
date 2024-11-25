@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 setup(
     name='RAISING',
-    version='1.0.0',
+    version='1.0.1',
     author='Devashish Tripathi',
     author_email='devashishtripathi697@gmail.com',
     description='RAISING: A supervised deep learning framework for hyperparameter tuning and feature selection',
