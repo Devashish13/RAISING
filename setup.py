@@ -6,7 +6,7 @@ setup(
     author='Devashish Tripathi',
     author_email='devashishtripathi697@gmail.com',
     description='RAISING: A supervised deep learning framework for hyperparameter tuning and feature selection',
-    long_description=open('README.md').read(),
+    long_description="This is a simple text",
     long_description_content_type='text/markdown',  # Specify content type as Markdown
     packages=find_packages(),
     install_requires=[
