@@ -5,9 +5,9 @@ setup(
     version='1.0.0',
     author='Devashish Tripathi',
     author_email='devashishtripathi697@gmail.com',
-    #description='RAISING: A supervised deep learning framework for hyperparameter tuning and feature selection',
-    long_description="This is a simple text",
-    long_description_content_type='text/markdown',  # Specify content type as Markdown
+    description='RAISING: A supervised deep learning framework for hyperparameter tuning and feature selection',
+    long_description=open("README.md", encoding="utf-8").read(),
+    long_description_content_type="text/markdown",
     packages=find_packages(),
     install_requires=[
         "pandas>=1.5.2",
@@ -23,4 +23,11 @@ setup(
         "statsmodels>=0.14.0",
         "matplotlib>=3.6.2"
     ]
+    classifiers=[
+        "Programming Language :: Python :: 3",
+        "License :: OSI Approved :: GNU General Public License v3 (GPLv3)",  # Updated license
+        "Operating System :: OS Independent",
+    ],
+    license="GPL-3.0-or-later",
+    python_requires='>=3.9',
 )
