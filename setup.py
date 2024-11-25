@@ -1,16 +1,17 @@
 from setuptools import setup, find_packages
 
-# Read the long description from README.md
-with open("README.md", "r", encoding="utf-8") as fh:
-    long_description = fh.read()
-
 setup(
     name='RAISING',
     version='1.0.0',
     author='Devashish Tripathi',
     author_email='devashishtripathi697@gmail.com',
     description='RAISING: A supervised deep learning framework for hyperparameter tuning and feature selection',
-    long_description=long_description,  # Add the long description
+    long_description="""
+    This repository contains the source code, simulation data, and documentation for the RAISING, 
+    a two-stage neural network(NN) implementation framework that first performs hyperparameter tuning to devise 
+    the best NN architecture and then performs training on the entire data to estimate the feature importance. 
+    The method has been published in Nucleic Acids Research (https://doi.org/10.1093/nar/gkae1027).
+    """,
     long_description_content_type="text/markdown",  # Specify content type as Markdown
     packages=find_packages(),
     install_requires=[
