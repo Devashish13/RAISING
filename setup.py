@@ -22,7 +22,7 @@ setup(
         "shap>=0.41.0",
         "statsmodels>=0.14.0",
         "matplotlib>=3.6.2"
-    ]
+    ],
     classifiers=[
         "Programming Language :: Python :: 3",
         "License :: OSI Approved :: GNU General Public License v3 (GPLv3)",  # Updated license
