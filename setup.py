@@ -1,11 +1,17 @@
 from setuptools import setup, find_packages
 
+# Read the long description from README.md
+with open("README.md", "r", encoding="utf-8") as fh:
+    long_description = fh.read()
+
 setup(
     name='RAISING',
     version='1.0.0',
     author='Devashish Tripathi',
     author_email='devashishtripathi697@gmail.com',
-    description='RAISING:A supervised deep learning framework for hyperparameter tuning and feature selection',
+    description='RAISING: A supervised deep learning framework for hyperparameter tuning and feature selection',
+    long_description=long_description,  # Add the long description
+    long_description_content_type="text/markdown",  # Specify content type as Markdown
     packages=find_packages(),
     install_requires=[
         "pandas>=1.5.2",
